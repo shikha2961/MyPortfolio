@@ -1,0 +1,423 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+body{
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+/* .navclass{
+    margin: 0;
+} */
+/* **********Home Section Starts*********** */
+#home{
+    margin-top: 5%;
+    max-width: 100%;
+    /* margin: 0; */
+}
+
+/* Headline div starts */
+.headline{
+    padding-top: 3%;
+    max-width: 100%;
+}
+
+.listset{
+    list-style-type: none;
+}
+/* Photo div starts */
+.photo{
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+.home_sec::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Image Class */
+.my_img{
+    margin-left: 28%;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    display: block;
+}
+/* BTN class */
+
+.btnprj{
+    font-size: 140%;
+    margin-left: 6%;
+}
+
+@media screen and (max-width: 800px){
+    #home{
+        margin-right: 0;
+    }
+    .my_img{
+        width: 50%;
+    }
+    .photo{
+        width: 100%;
+    }
+    .headline{
+        margin-top: 5%;
+        width: 100%;
+        padding-top: 3%;
+        text-align: center;
+    }
+}
+/* Brief Intro Class */
+.brief_intro{
+    margin: 6% 2% 2% 2%;
+    text-align: center;
+}
+.intro{
+    display: inline-block;
+    text-align: justify;
+    width: 40%;
+    margin-top: 2%;
+    border-radius: 2%;
+    padding: 2.5% 2.5% 2.5% 2.5%;
+    background-color: #678983;
+}
+.introimg{
+    display: inline-block;
+}
+
+.intim{
+    width: 50%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 800px){
+    .intro{
+        text-align: justify;
+        align-items: center;
+        width: 90%;
+        margin-top: 5%;
+        /* margin-left: 2%;
+        margin-right: 2%; */
+    }
+    .intro h2{
+        text-align: center;
+    }
+    .introimg{
+        margin-top: 4%;
+        text-align: center;
+        /* width: 100%; */
+    }
+}
+/***********************Education Section Starts ***********************/
+/* Education Section Starts */
+
+#education{
+    margin: 4% 2% 2% 2%;
+    text-align: center;
+}
+
+#education h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+/*Education Stuff */
+
+.igdtu_img{
+    width: 42%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 4%;
+}
+.c1img{
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+}
+.clgimg{
+    width: 60%;
+    /* margin-left: 2%; */
+}
+
+@media screen and (max-width: 800px) {
+    .igdtu_img{
+        width: 100%;
+    }
+    .c1img{
+        margin-top: 3%;
+        width: 100%;
+    }
+}
+/************** Skill Section Starts ***********/
+.container{
+    margin-top: 5rem;
+    text-align: center;
+    
+}
+
+.list{
+    list-style: none;
+    margin-right: 2rem;
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+
+
+/**********************Skill Section Starts**********************/
+#skills{
+    padding-top: 2%;
+    background-color: #678983;
+    border-radius: 2%;
+}
+
+.s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10, .s11, .s12{
+    display: inline-block;
+    background-color: #527770;
+    margin-top: 2%;
+    border-radius: 5%;
+    padding-top: 2%;
+    margin-bottom: 3%;
+    /* width: 25%; */
+}
+
+
+.simg1, .simg2, .simg3, .simg4, .simg5, .simg6, .simg7, .simg8, .simg9, .simg10, .simg11, .simg12, .simg13{
+    width: 50%;
+}
+
+.s4{
+    padding-top: 4%;
+}
+.simg4{
+    width: 67%;
+}
+.simg7{
+    width: 83%;
+}
+.s7{
+    padding-top: 3%;
+}
+.simg8{
+    width: 80.5%;
+}
+.simg12{
+    width: 58%;
+}
+
+@media screen and (max-width: 800px){
+    #skills{
+        width: 90%;
+    }
+}
+/************Projects Section Starts**********/
+
+#projects{
+    margin: 4% 8% 2% 8%;
+    background-color: #678983;
+    padding-bottom: 3rem;
+    text-align: center;
+    border-radius: 2%;
+}
+#projects h2{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.prjs{
+    width: 90%;
+    margin-left: 4.5%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+.prj1, .prj2, .prj3{
+    margin-top: 1%;
+    max-width: 28%;
+    margin-left: 4%;
+}
+
+@media screen and (max-width: 800px) {
+    .prjs{
+        text-align: center;
+    }
+    .prj1{
+        max-width: 80%;
+        margin-left: 9%;
+    }
+    .prj2, .prj3{
+        max-width: 80%;
+        margin-top: 5%;
+        margin-left: 9%;
+    }
+}
+.bp1, .bp2, .bp3{
+    text-align: center;
+}
+
+.titleprj{
+    background-color: #678983;
+    color: white;
+}
+.btnprj{
+    background-color: #678983;
+}
+.btnprj:hover{
+    background-color: #345751;
+}
+/***********Footer Section Starts**********/
+
+#contact{
+    margin-top: 5%;
+    background-color: #678983;
+    margin-bottom: -50%;
+    padding-top: 2%;
+}
+.portfolio_outline, .quicklinks, .contactinfo{
+    /* display: inline-block; */
+    margin-top: 3%;
+    
+}
+
+.portfolio_outline{
+  width: 32%;
+  float: left;
+  margin-left: 10%;
+}
+
+.quicklinks{
+    width: 10%;
+    float: left;
+    margin-left: 7%;
+}
+
+.contactinfo{
+    margin-left: 65%;
+    width: 35%;
+}
+
+.footercontent{
+    margin-top: 6%;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    #contact{
+        text-align: center;
+    }
+    .portfolio_outline{
+        width: auto;
+        float: unset;
+        margin-right: 3%;
+    }
+    .quicklinks{
+        width: auto;
+        float: unset;
+        margin-right: 3%;
+    }
+    .contactinfo{
+        margin-right: 3%;
+        width: auto;
+        float: unset;
+        margin-left: 3%;
+    }
+}
+
+.link, .git, .twit, .mail, .insta{
+    margin-right: 2%;
+    font-size: 200%;
+}
+
+.link{
+    color:  #0A66C2;
+}
+.link:hover{
+    background-color: #0D4C92;
+   
+}
+
+.git{
+    color: black;
+}
+.git:hover{
+    background-color: gray;
+}
+
+.twit{
+    color: #00acee;
+}
+.twit:hover{
+    background-color: #0D4C92;
+}
+
+.mail{
+    color: white;
+}
+.mail:hover{
+    background-color: grey;
+}
+
+.insta{
+    color: #c75eb7;
+}
+.insta:hover{
+    background-color: #FFA1CF;
+}
+.link:hover, .git:hover, .twit:hover, .mail:hover, .insta:hover{
+    border-radius: 50%;
+    padding: 0.3rem 0.4rem 0.4rem 0.4rem;
+}
+
+
+.qel{
+    color: white;
+}
+.qel:hover{
+    color: #0D4C92;
+}
+
+/* contactform div starts here */
+#contactform{
+    margin-left: 24%;
+    width: 50%;
+    margin-top: 5%;
+    /* margin-right: 12%; */
+    padding: 2% 2% 2% 2%;
+    border-radius: 5%;
+    background-color: #345751;
+}
+
+.contactformhead{
+    text-align: center;
+}
+
+
+.btnclass{
+    color: white;
+    background-color: #678983;
+    font-size: 130%;
+    border-radius: 10%;
+    text-align: center;
+    /* padding: 0.5%; */
+    
+}
+.btnclass:hover{
+    background-color: #345751;
+}
+@media screen and (max-width: 800px){
+    #contactform{
+        margin-top: 8%;
+        width: 60%; 
+    }
+}

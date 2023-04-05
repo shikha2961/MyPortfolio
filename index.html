@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shikha</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"> </script>
+    <script>
+      (function(){
+      emailjs.init("divO0ceuX5HRN7gmz");
+    })();
+    </script>
+
+  </head>
+
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navclass">
+
+        <a class="navbar-brand active" href="#home">Shikha</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#education">Education</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#contactform">Contact Us</a>
+          </div>
+
+        </div>
+     
+    </nav>
+    
+    <!-- Home Section Starts -->
+    <div id="home" class="home_sec">
+      <div class="photo">
+        <img class="my_img" src="Images/shikha.jpg" alt="" />
+      </div>
+      <div class="headline">
+        <h2>Hello!</h2>
+        <h2>I'm <span class="auto-type"></span></h2>
+        <br>
+        <h4>Experience</h4>
+        <ul class="listset">
+          <li>Research Intern at IGDTUW</li>
+          <li>Mentor at uAceit for Web Dev Project</li>
+          <li>Web Developer at IEEE IGDTUW</li>
+          <li>Campus Ambassador at GeeksForGeeks</li>
+        </ul>
+        
+        <a href="https://drive.google.com/file/d/1r99kBODzufcrb4EN8rdxhNltQVV_XGwa/view?usp=share_link"
+        class="btn btn-primary btnprj">Resume</a>
+      </div>
+    </div>
+
+
+    <div class="brief_intro reveal">
+      
+      <div class="intro">
+        <h2>About Me</h2>
+      <p>
+        I'm Shikha, a Delhi native with a strong interest in technology, and I
+        chose to enrol at IGDTUW to help shape my future career. Education
+        Mentoring Program started by Delhi's government gave me an opportunity
+        to create an impact on someone's life. I've guided girls from
+        underprivileged backgrounds to a better future. I advised those girls on
+        how to begin a career in the field of their choice. I am a passionate
+        web developer. I mentored the mentees for the Giphy Search Engine web
+        development project. I enjoy adding value to people's lives. This
+        Mentorship program enables me to assist mentees who are having doubts. I
+        also worked as a web developer at IEEE IGDTUW. I'm honing my
+        problem-solving skills by studying data structures and algorithms and
+        solving problems on various platforms. In my spare time, I like to go
+        around greenery
+      </p>
+      </div>
+      <div class="introimg">
+        <img class="intim" src="Images/proimg.jpg" alt="">
+      </div>
+      
+    </div>
+
+    <!-- Education Section starts -->
+    <div id="education" class="edu_sec reveal">
+      <h2>Education</h2>
+      <!-- Igdtuw college Stuff -->
+        <div class="igdtu_img">
+          <img src="Images/IGDTUW-Delhi.jpg" alt="Igdtuw Image" class="clgimg"/>
+          <h5>B.Tech CSE 2020-2024</h5>
+          <p>Indira Gandhi Delhi Technical University For Women</p>
+        </div>
+        
+        <!-- C1 School Stuff -->
+        <div class="c1img">
+          <img src="Images/c1 school.jpeg" alt="School Image" class="sclimg" />
+          <h5>12th CBSE 2015-2019</h5>
+          <p>Sampurananda Sarovdaya Kanya Vidalya Yamuna Vihar</p>
+        </div>
+      
+    </div>
+
+    <!-- Project Section Starts -->
+    <div id="projects" class="reveal">
+      <h2>Projects</h2>
+      <div class="row prjs">
+        <div class="card prj1 col-sm-4">
+          <img src="Images/FRAP.png" class="card-img-top" alt="..." />
+          <div class="card-body bp1">
+            <h5 class="card-title titleprj">
+              Facial Recognition Attendance Project
+            </h5>
+            <p class="card-text">
+              Attendance System that employs facial recognition technology to
+              track attendance.
+            </p>
+            <a
+              href="https://github.com/shikha2961/Face-Recognition-Attendance-Portal"
+              class="btn btn-primary btnprj"
+              >View</a
+            >
+            <a
+              href="https://github.com/shikha2961/Face-Recognition-Attendance-Portal"
+              class="btn btn-primary btnprj"
+              >Code</a
+            >
+          </div>
+        </div>
+        <div class="card prj2 col-sm-4">
+          <img src="Images/FRAP.png" class="card-img-top" alt="..." />
+          <div class="card-body bp2">
+            <h5 class="card-title titleprj">Special title treatment</h5>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+            <a href="#" class="btn btn-primary btnprj">View</a>
+            <a href="#" class="btn btn-primary btnprj">Code</a>
+          </div>
+        </div>
+
+        <div class="card prj3 col-sm-4">
+          <img src="Images/FRAP.png" class="card-img-top" alt="..." />
+          <div class="card-body bp3">
+            <h5 class="card-title titleprj">Special title treatment</h5>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+            <a href="#" class="btn btn-primary btnprj">View</a>
+            <a href="#" class="btn btn-primary btnprj">Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience Section Starts -->
+
+    <!-- Skills  Section Starts -->
+    <div id="skills" class="container reveal">
+      <h2>SKILLS</h2>
+      <div class="s1">
+        <img src="Images/Icons for skills/cpp.ico" class="simg1" alt="imge">
+        <p>C++ Lang.</p>
+      </div>
+       
+      <div class="s2">
+        <img src="Images/Icons for skills/css.ico" class="simg2" alt="img">
+        <p>CSS</p>
+      </div>
+
+      <div class="s3">
+        <img src="Images/Icons for skills/django.ico" class="simg3" alt="img">
+        <p>Django</p>
+      </div>
+
+      <div class="s4">
+        <img src="Images/Icons for skills/expressjs.ico" class="simg4" alt="img">
+        <p>Express Js</p>
+      </div>
+
+      <div class="s5">
+        <img src="Images/Icons for skills/github.ico" class="simg5" alt="img">
+        <p>Git/GitHub</p>
+      </div>
+
+      <div class="s6">
+        <img src="Images/Icons for skills/html.ico" class="simg6" alt="img">
+        <p>HTML</p>
+      </div>
+
+      <div class="s7">
+        <img src="Images/Icons for skills/jquery.ico" class="simg7" alt="img">
+        <p>JQuery</p>
+      </div>
+
+      <div class="s8">
+        <img src="Images/Icons for skills/js.ico" class="simg8" alt="img">
+        <p>Javascript</p>
+      </div>
+
+      <div class="s9">
+        <img src="Images/Icons for skills/mongodb.ico" class="simg9" alt="img">
+        <p>MongoDB</p>
+      </div>
+
+      <div class="s10">
+        <img src="Images/Icons for skills/nod.ico" class="simg10" alt="img">
+        <p>Node Js</p>
+      </div>
+
+      <div class="s11">
+        <img src="Images/Icons for skills/python.ico" class="simg11" alt="img">
+        <p>Python</p>
+      </div>
+
+      <div class="s12">
+        <img src="Images/Icons for skills/react.ico" class="simg12" alt="img">
+        <p>React Js</p>
+      </div>
+
+    </div>
+<!-- Contact Form -->
+    <div id="contactform" class="reveal" >
+      <h2 class="contactformhead">Contact </h2>
+      <div>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control"  id="name" placeholder="your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control"  id="email" placeholder="name@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="msg">Message</label>
+          <textarea class="form-control" id="msg" rows="3" required></textarea>
+        </div>
+        <input onclick="sendMail()" type="submit"  value="Submit" class="btnclass"></input>
+      </div>
+    </div>
+    <!-- Footer -->
+
+    <footer id="contact" class="footer-section">
+        <div class="portfolio_outline">
+          <h4>Shikha's Portfolio</h4>
+          <p>
+            Thank you for visiting my personal portfolio. Connect with me over
+            socials.
+          </p>
+          <p>
+            Please wait for a while all major projects will be listed soon. Till
+            then keep visiting.
+          </p>
+        </div>
+
+        <div class="quicklinks">
+          <h4 class="qhead">Quick Links</h4>
+          <ul class="listset">
+            <li><a class="qel" href="#home">Home</a></li>
+            <li><a class="qel" href="#education">Education</a></li>
+            <li><a class="qel" href="#projects">Projects</a></li>
+            <li><a class="qel" href="#skills">Skills</a></li>
+            <li><a class="qel" href="#contactform">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="contactinfo">
+          <h4 class="chead">Contact Info.</h4>
+          <p>shikhalodhiwork@gmail.com</p>
+          <p>Delhi, India</p>
+          <a href="https://www.linkedin.com/in/shikha-lodhi/"
+            ><i class="fa-brands fa-linkedin link"></i
+          ></a>
+          <a href="https://github.com/shikha2961/"
+            ><i class="fa-brands fa-github git"></i
+          ></a>
+          <a href="https://twitter.com/Shikha52405023"
+            ><i class="fa-brands fa-twitter twit"></i
+          ></a>
+          <a href="#contactform"
+            ><i class="fa-solid fa-envelope mail"></i
+          ></a>
+          <a href="https://www.instagram.com/sh.ikha1118/"
+            ><i class="fa-brands fa-instagram insta"></i
+          ></a>
+        </div>
+     
+
+      <div class="footercontent">
+        <p>© All Copyrights reserved</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Programmer", "Web Developer", "Student", "Mentor"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+    
+  </body>
+</html>
